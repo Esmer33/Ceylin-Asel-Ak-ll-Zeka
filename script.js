@@ -2,7 +2,7 @@ const input = document.getElementById("input");
 const messages = document.getElementById("messages");
 
 // ✅ BURAYA OpenRouter API key'ini yaz (gizli tut!)
-const API_KEY = "BURAYA_API_KEYINI_YAZ";
+const API_KEY = "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";
 const MODEL_ID = "openai/gpt-3.5-turbo"; // Alternatif: mistralai/mixtral-8x7b
 
 async function gonder(metin) {
